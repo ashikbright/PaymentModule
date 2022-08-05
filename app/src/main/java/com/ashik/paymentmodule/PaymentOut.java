@@ -32,7 +32,7 @@ public class PaymentOut extends AppCompatActivity {
         edtAmountPaid=findViewById(R.id.edtAmtPaid);
         edtDescription=findViewById(R.id.edtOUTDesc);
         edtDate=findViewById(R.id.edtOUTDate);
-        spinner=findViewById(R.id.spinner);
+        spinner=findViewById(R.id.spinnerout);
         OutSubmit=findViewById(R.id.btnOUTSubmit);
 
         Calendar calendar=Calendar.getInstance();

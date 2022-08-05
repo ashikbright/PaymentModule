@@ -32,7 +32,7 @@ public class PaymentIn extends AppCompatActivity {
         edtAmountRecieved=findViewById(R.id.edtAmtRcvd);
         edtDescription=findViewById(R.id.edtINDesc);
         edtDate=findViewById(R.id.edtINDate);
-        spinner=findViewById(R.id.spinner);
+        spinner=findViewById(R.id.spinnerpin);
         InSubmit=findViewById(R.id.btnINSubmit);
 
         Calendar calendar=Calendar.getInstance();
