@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PaymentModule</string>
+
+    <array name="categories_list">
+        <item>Labour</item>
+        <item>Mistri</item>
+        <item>Tiles/Marble Mistri</item>
+        <item>Painter</item>
+        <item>Furniture Works</item>
+        <item>Plumber</item>
+        <item>Welder</item>
+        <item>Electrician</item>
+    </array>
+</resources>
