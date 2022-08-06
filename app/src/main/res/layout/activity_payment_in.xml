@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F1F1F1"
     tools:context=".PaymentIn">
 
     <LinearLayout
@@ -60,8 +61,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="39dp"
                 android:layout_weight="1"
-                android:paddingTop="10dp"
-                android:entries="@array/categories_list"/>
+                android:entries="@array/categories_list"
+                android:paddingTop="10dp" />
 
         </LinearLayout>
 
@@ -71,6 +72,7 @@
             android:layout_height="185dp"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:background="@drawable/button_layout"
             android:gravity="center|center_vertical"
             android:text="Submit" />
 

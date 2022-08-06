@@ -55,7 +55,7 @@ public class PaymentOut extends AppCompatActivity {
                 datePickerDialog.show();
             }
         });
-        databaseReference= FirebaseDatabase.getInstance().getReference().child("PaymentOut");
+        databaseReference= FirebaseDatabase.getInstance().getReference("Projects").child("Payment").child("OUT");
         OutSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

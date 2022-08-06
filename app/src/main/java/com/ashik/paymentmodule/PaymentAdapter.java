@@ -25,7 +25,7 @@ public class PaymentAdapter extends RecyclerView.Adapter<PaymentAdapter.MyViewHo
     @NonNull
     @Override
     public PaymentAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v= LayoutInflater.from(context).inflate(R.layout.payment_details,parent,false);
+        View v= LayoutInflater.from(context).inflate(R.layout.payment_details_in,parent,false);
         return new MyViewHolder(v);
     }
 
@@ -37,6 +37,7 @@ public class PaymentAdapter extends RecyclerView.Adapter<PaymentAdapter.MyViewHo
         holder.desc.setText(inPayment.getDescriptionIn());
         holder.categ1.setText(inPayment.getC_type());
         holder.in.setText(inPayment.getAmtrecieved());
+        holder.setIsRecyclable(false);
 //        holder.date.setText(outPayment.getDateOUT());
 //        holder.desc.setText(outPayment.getDescriptionOut());
 //        holder.categ2.setText(outPayment.getC_type());

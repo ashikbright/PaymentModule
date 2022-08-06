@@ -24,6 +24,7 @@ public class PaymentIn extends AppCompatActivity {
     Button InSubmit;
     DatePickerDialog.OnDateSetListener setListener;
     DatabaseReference databaseReference;
+    long sum=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,7 +57,7 @@ public class PaymentIn extends AppCompatActivity {
             }
         });
 
-        databaseReference= FirebaseDatabase.getInstance().getReference().child("PaymentIn");
+        databaseReference= FirebaseDatabase.getInstance().getReference("Projects").child("Payment").child("IN");
         InSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

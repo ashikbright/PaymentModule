@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F1F1F1"
     tools:context=".PaymentOut">
+
     <LinearLayout
         android:layout_width="478dp"
         android:layout_height="269dp"
@@ -70,6 +72,7 @@
             android:layout_height="185dp"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:background="@drawable/button_layout"
             android:gravity="center|center_vertical"
             android:text="Submit" />
 

@@ -35,6 +35,7 @@ public class PaymentAdapterOut extends RecyclerView.Adapter<PaymentAdapterOut.My
         holder.desc.setText(outPayment.getDescriptionOut());
         holder.categ2.setText(outPayment.getC_type());
         holder.out.setText(outPayment.getAmtPaid());
+        holder.setIsRecyclable(false);
     }
 
     @Override
